@@ -6,13 +6,14 @@ gem 'rails', '3.0.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # SQLite
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3',
+  :groups => [:development, :test]
 
 # MySQL
 # gem 'mysql2', '~> 0.2.6'
 
 # PostgreSQL
-# gem 'pg'
+gem 'pg', :group => :production
 
 gem 'devise', '1.2.1'
 gem 'cancan', '1.6.1'
