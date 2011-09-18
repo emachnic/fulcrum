@@ -13,7 +13,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3',
 # gem 'mysql2', '~> 0.2.6'
 
 # PostgreSQL
-gem 'pg', :group => :production
+gem 'pg'
 
 gem 'devise', '1.2.1'
 gem 'cancan', '1.6.1'
